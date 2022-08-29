@@ -118,6 +118,6 @@ Các bước thực thi tạo game:
 
   B10:	Chèn nhạc, hiệu ứng âm thanh.
 
-
+npm install
 var copyright = require('update-copyright');
 copyright('Copyright (c) 2029 by ');
