@@ -7,32 +7,43 @@ Game dựa trên hình tượng nhân vật game Among Us – game từng thốn
 II.	Quy trình kỹ thuật: 
 
 1.	Tổng quát:
-•	Game engine: Construct 3.
-•	Đồ hoạ: tự thiết kế hoàn toàn (trừ ảnh nền).
-•	Âm thanh: Among Us Sound.
+
+*	Game engine: Construct 3.
+
+*	Đồ hoạ: tự thiết kế hoàn toàn (trừ ảnh nền).
+
+*	Âm thanh: Among Us Sound.
+
 2.	Chi tiết: 
+
 i.	Hình nền (Background):
-•	Kích thước: 854 x 480 px (view), 1708 x 960 (layout game).
-•	Thiết kế: ảnh sử dụng nguồn lấy từ google hình ảnh.
+
+*	Kích thước: 854 x 480 px (view), 1708 x 960 (layout game).
+
+*	Thiết kế: ảnh sử dụng nguồn lấy từ google hình ảnh.
 
 ii.	Các đối tượng trong trong trò chơi (Objects):
 
 a.	Nhân vật trò chơi (Player):
 
-•	Kích thước: 56 x 84 px.
-•	Thiết kế: sử dụng ô vuông pixel (4 px) để vẽ.
-•	Hiệu ứng: ảnh động (2 sprites).
-•	Trạng thái: di chuyển và đứng yên.
-•	Phương thức di chuyển: sử dụng 4 mũi tên trên bàn phím.
-•	Phương thức tuỳ chọn: 5 màu sắc: đỏ (255,0,0), xanh lá (0,255,0), xanh dương (0,0,255), vàng (255,255,0), trắng (0,0,0)
+*	Kích thước: 56 x 84 px.
+
+*	Thiết kế: sử dụng ô vuông pixel (4 px) để vẽ.
+
+*	Hiệu ứng: ảnh động (2 sprites).
+
+*	Trạng thái: di chuyển và đứng yên.
+
+*	Phương thức di chuyển: sử dụng 4 mũi tên trên bàn phím.
+*	Phương thức tuỳ chọn: 5 màu sắc: đỏ (255,0,0), xanh lá (0,255,0), xanh dương (0,0,255), vàng (255,255,0), trắng (0,0,0)
 
 b.	Trái tim (Heart):
 
-•	Kích thước: 220 x 198 px.
-•	Thiết kế: sử dụng ô vuông pixel (11 px) để vẽ.
-•	Hiệu ứng: ảnh động (8 sprites).
-•	Trạng thái: đứng yên.
-•	Màu sắc: thay đổi từ đỏ sang hồng và ngược lại.
+*	Kích thước: 220 x 198 px.
+*	Thiết kế: sử dụng ô vuông pixel (11 px) để vẽ.
+*	Hiệu ứng: ảnh động (8 sprites).
+*	Trạng thái: đứng yên.
+*	Màu sắc: thay đổi từ đỏ sang hồng và ngược lại.
 
 c.	Tường mê cung (Wall):
 
