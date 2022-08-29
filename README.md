@@ -118,4 +118,4 @@ Các bước thực thi tạo game:
 
   B10:	Chèn nhạc, hiệu ứng âm thanh.
 
-## Copyright by H
+## Copyright by HyrniT
