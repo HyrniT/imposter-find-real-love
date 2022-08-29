@@ -1,12 +1,12 @@
 # Imposter find Real Love
 Construct Game Engine
 
-I.	Giới thiệu: 
+## I.	Giới thiệu: 
 Game dựa trên hình tượng nhân vật game Among Us – game từng thống trị thế giới giữa cuối năm 2020, kết hợp với trò chơi giải mê cung kinh điển.  Game Imposter Find Real Love sẽ mang đến làn gió mới cho các trò chơi giải mê cung mà chúng ta thường chỉ thấy và giải trên các tạp chí và các cuốn sách trò chơi. Tận dụng độ “hot” của Among Us và sự phát triển của công nghệ, game sẽ đưa người chơi đến với trải nghiệm giải mê cung vô cùng thú vị và sắc màu. Ngoài mục tiêu giải trí, game còn giúp người chơi luyện khả năng trí nhớ ngắn hạn về mô hình đường đi và tư duy tìm đường ngắn nhất để về đến đích. Game được tăng độ khó gấp nhiều lần khi người chơi không đoán được vị trí về đích ở đâu và buộc người chơi vừa đi vừa mò và phải nhớ đường đi. Hiện tại game mới phát hành nên khi mua game sẽ được tặng gamemposter Kill This Love.
 
-II.	Quy trình kỹ thuật: 
+## II.	Quy trình kỹ thuật: 
 
-1.	Tổng quát:
+### 1.	Tổng quát:
 
 *	Game engine: Construct 3.
 
@@ -14,17 +14,17 @@ II.	Quy trình kỹ thuật:
 
 *	Âm thanh: Among Us Sound.
 
-2.	Chi tiết: 
+### 2.	Chi tiết: 
 
-i.	Hình nền (Background):
+#### i.	Hình nền (Background):
 
 *	Kích thước: 854 x 480 px (view), 1708 x 960 (layout game).
 
 *	Thiết kế: ảnh sử dụng nguồn lấy từ google hình ảnh.
 
-ii.	Các đối tượng trong trong trò chơi (Objects):
+#### ii.	Các đối tượng trong trong trò chơi (Objects):
 
-a.	Nhân vật trò chơi (Player):
+##### a.	Nhân vật trò chơi (Player):
 
 *	Kích thước: 56 x 84 px.
 
@@ -35,9 +35,10 @@ a.	Nhân vật trò chơi (Player):
 *	Trạng thái: di chuyển và đứng yên.
 
 *	Phương thức di chuyển: sử dụng 4 mũi tên trên bàn phím.
+
 *	Phương thức tuỳ chọn: 5 màu sắc: đỏ (255,0,0), xanh lá (0,255,0), xanh dương (0,0,255), vàng (255,255,0), trắng (0,0,0)
 
-b.	Trái tim (Heart):
+##### b.	Trái tim (Heart):
 
 *	Kích thước: 220 x 198 px.
 
@@ -49,7 +50,7 @@ b.	Trái tim (Heart):
 
 *	Màu sắc: thay đổi từ đỏ sang hồng và ngược lại.
 
-c.	Tường mê cung (Wall):
+##### c.	Tường mê cung (Wall):
 
 *	Kích thước: 6 x (?) px
 
@@ -59,7 +60,7 @@ c.	Tường mê cung (Wall):
 
 *	Màu sắc: cyan đổ màu nhạt dần từ trong ra ngoài và đen.
 
-d.	Thiên thạch (Meteorites):
+##### d.	Thiên thạch (Meteorites):
 
 *	Kích thước: 140 x 100 px.
 
@@ -69,9 +70,9 @@ d.	Thiên thạch (Meteorites):
 
 *	Trạng thái: di chuyển ngẫu nhiên
 
-iii.	Mê cung (Map): (xem ở file)
+### iii.	Mê cung (Map): (xem ở file)
 
-III.	Hướng dẫn sử dụng: 
+## III.	Hướng dẫn sử dụng: 
 
   *	Dùng 4 phím mũi tên trên bàn phím để di chuyển nhân vật game.
 
@@ -93,7 +94,7 @@ III.	Hướng dẫn sử dụng:
 
 o	Một vài lưu ý khi chơi: cần giải quyết nhanh thử thách nhất có thể vì sau mỗi 40s sẽ xuất hiện thêm 1 thiên thạch trên màn hình, tường sẽ sáng và tối trong chu kì 1s, để chơi hiệu quả người chơi cần phải vận dụng khả năng ghi nhớ và khả năng tưởng tượng không gian 2 chiều tốt, nhân vật có 5 màu để tuỳ chọn và thay đổi trong phần Option, có hướng dẫn chơi ngắn gọn trong phần Tuturial.
 
-IV.	Mở rộng
+## IV.	Mở rộng
 
 Các bước thực thi tạo game:
 
@@ -117,3 +118,4 @@ Các bước thực thi tạo game:
 
   B10:	Chèn nhạc, hiệu ứng âm thanh.
 
+**Copyright by HyrniT**
