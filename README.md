@@ -1,4 +1,4 @@
-# imposter-find-real-love
+# Imposter find Real Love
 Construct Game Engine
 
 I.	Giới thiệu: 
@@ -40,46 +40,56 @@ a.	Nhân vật trò chơi (Player):
 b.	Trái tim (Heart):
 
 *	Kích thước: 220 x 198 px.
+
 *	Thiết kế: sử dụng ô vuông pixel (11 px) để vẽ.
+
 *	Hiệu ứng: ảnh động (8 sprites).
+
 *	Trạng thái: đứng yên.
+
 *	Màu sắc: thay đổi từ đỏ sang hồng và ngược lại.
 
 c.	Tường mê cung (Wall):
 
-•	Kích thước: 6 x (?) px
-•	Thiết kế: sử dụng ô vuông pixel (1 px) để vẽ.
-•	Trạng thái: đứng yên.
-•	Màu sắc: cyan đổ màu nhạt dần từ trong ra ngoài và đen.
+*	Kích thước: 6 x (?) px
+
+*	Thiết kế: sử dụng ô vuông pixel (1 px) để vẽ.
+
+*	Trạng thái: đứng yên.
+
+*	Màu sắc: cyan đổ màu nhạt dần từ trong ra ngoài và đen.
 
 d.	Thiên thạch (Meteorites):
 
-•	Kích thước: 140 x 100 px.
-•	Thiết kế: sử dụng ô vuông pixel (4 px) để vẽ.
-•	Hiệu ứng: ảnh động (3 sprites).
-•	Trạng thái: di chuyển ngẫu nhiên
+*	Kích thước: 140 x 100 px.
 
-iii.	Mê cung (Map): 
+*	Thiết kế: sử dụng ô vuông pixel (4 px) để vẽ.
+
+*	Hiệu ứng: ảnh động (3 sprites).
+
+*	Trạng thái: di chuyển ngẫu nhiên
+
+iii.	Mê cung (Map): (xem ở file)
 
 III.	Hướng dẫn sử dụng: 
 
-o	Dùng 4 phím mũi tên trên bàn phím để di chuyển nhân vật game.
+  *	Dùng 4 phím mũi tên trên bàn phím để di chuyển nhân vật game.
 
-o	Dùng chuột trái để chọn các tuỳ chọn.
+  *	Dùng chuột trái để chọn các tuỳ chọn.
 
-o	Di chuyển nhân nhân vật vượt mê cung để về đến đích.
+  *	Di chuyển nhân nhân vật vượt mê cung để về đến đích.
 
-o	Đến đích chạm vào được trái tim là hoàn thành thử thách.
+  *	Đến đích chạm vào được trái tim là hoàn thành thử thách.
 
-o	Trong quá trình di chuyển cần tránh những thiên thạch bay lơ lửng trong không gian.
+  *	Trong quá trình di chuyển cần tránh những thiên thạch bay lơ lửng trong không gian.
 
-o	Trong quá trình chơi, nếu nhân vật chạm vào thiên thạch thì thử thách thất bại.
+  *	Trong quá trình chơi, nếu nhân vật chạm vào thiên thạch thì thử thách thất bại.
 
-o	Người chơi sẽ không biết vị trí đích nằm ở đâu và phải tự tìm được đích đến.
+  *	Người chơi sẽ không biết vị trí đích nằm ở đâu và phải tự tìm được đích đến.
 
-o	Người chơi phải ghi nhớ những đoạn đã đi qua và tìm giải pháp đi hiệu quả nhất.
+  *	Người chơi phải ghi nhớ những đoạn đã đi qua và tìm giải pháp đi hiệu quả nhất.
 
-o	Kết quả người chơi được so sánh dựa trên tiêu chí thời gian hoàn thành thử thách.
+  *	Kết quả người chơi được so sánh dựa trên tiêu chí thời gian hoàn thành thử thách.
 
 o	Một vài lưu ý khi chơi: cần giải quyết nhanh thử thách nhất có thể vì sau mỗi 40s sẽ xuất hiện thêm 1 thiên thạch trên màn hình, tường sẽ sáng và tối trong chu kì 1s, để chơi hiệu quả người chơi cần phải vận dụng khả năng ghi nhớ và khả năng tưởng tượng không gian 2 chiều tốt, nhân vật có 5 màu để tuỳ chọn và thay đổi trong phần Option, có hướng dẫn chơi ngắn gọn trong phần Tuturial.
 
@@ -87,23 +97,23 @@ IV.	Mở rộng
 
 Các bước thực thi tạo game:
 
-B1:	Chọn chủ đề game, nhân vật.
+  B1:	Chọn chủ đề game, nhân vật.
 
-B2:	Xác định phương thức chơi và giao diện chính.
+  B2:	Xác định phương thức chơi và giao diện chính.
 
-B3:	Chèn ảnh nền và điều chỉnh kích thước.
+  B3:	Chèn ảnh nền và điều chỉnh kích thước.
 
-B4:	Thiết kế tạo hình các nhân vật và đối tượng xuất hiện trong game.
+  B4:	Thiết kế tạo hình các nhân vật và đối tượng xuất hiện trong game.
 
-B5:	Tạo hiệu ứng ảnh động và gắn các hành vi cho đối tượng.
+  B5:	Tạo hiệu ứng ảnh động và gắn các hành vi cho đối tượng.
 
-B6:	Trang trí, xắp xếp các đối tượng trên cùng một layout.
+  B6:	Trang trí, xắp xếp các đối tượng trên cùng một layout.
 
-B7:	Lập trình các sự kiện diễn ra trong game (tạo câu lệnh điều khiển và điều kiện trong Event sheet).
+  B7:	Lập trình các sự kiện diễn ra trong game (tạo câu lệnh điều khiển và điều kiện trong Event sheet).
 
-B8:	Tạo thêm các layout (menu, gameover,…).
+  B8:	Tạo thêm các layout (menu, gameover,…).
 
-B9:	Thêm các button, hệ thống tính điểm, thời gian.
+  B9:	Thêm các button, hệ thống tính điểm, thời gian.
 
-B10:	Chèn nhạc, hiệu ứng âm thanh.
+  B10:	Chèn nhạc, hiệu ứng âm thanh.
 
